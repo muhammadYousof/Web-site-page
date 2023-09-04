@@ -1,0 +1,95 @@
+* {
+    font-family: 'DM Serif Display', serif;
+}
+
+.main {
+    background-image: url("https://wallpapercave.com/wp/wp4056209.jpg");
+    width: 100%;
+    height: 1200px;
+    margin: 25px 25px 25px 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background-color: #2F4F4F;
+    height: 150px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    width: 90%;
+    margin: 0% auto;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 7px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #F5FFFA;
+    margin: 10px;
+    padding: 6px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+
+
+}
+
+.navbar ul li a:hover {
+    transition: 1s;
+    background-color: #000;
+    color: #8B0000;
+
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+.one {
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    /* padding: 10px; */
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    display: grid; 
+    margin-top: 50px;
+    margin-right: 500px; 
+}
+
+.two {
+    
+    width: 200px;
+    height: 50px;
+    /* padding: 10px; */
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    /* display: grid; */
+    position: relative;
+    margin-left: 400px;
+    bottom: 50px;
+}
+
+button.one:hover {
+    transition: 1s;
+    background-color: #000;
+    color: #8B0000;
+}
+
+button.two:hover {
+    transition: 1s;
+    background-color: #000;
+    color: #8B0000;
+}
